@@ -10,8 +10,10 @@ Item {
 
     Rectangle {
         id: rectangle
-        border.color: "white"
+        border.color: "black"
+        border.width: 5
         anchors.fill: parent
+        radius: 10
     }
 
     MouseArea {
